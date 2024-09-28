@@ -34,7 +34,7 @@ function App() {
     else if (op == "*") ans = num1 * num2;
     else ans = num1 / num2;
 
-    setMsg("Result-" + ans);
+    setMsg("Result :  " + ans);
   }
   return (
     <div className="calculator">
